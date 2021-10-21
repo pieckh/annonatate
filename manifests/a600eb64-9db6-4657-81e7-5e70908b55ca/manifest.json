@@ -1,8 +1,9 @@
 ---
+layout: none
 ---
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://pieckh.github.io/annonatate/manifests/a600eb64-9db6-4657-81e7-5e70908b55ca/manifest.json",
+  "@id": "{{ '/' | absolute_url }}manifests/a600eb64-9db6-4657-81e7-5e70908b55ca/manifest.json",
   "@type": "sc:Manifest",
   "label": "Mendoza Trial",
   "metadata": [
@@ -24,7 +25,7 @@
           "width": 6579,
           "images": [
             {
-              "@id": "https://pieckh.github.io/annonatate/manifests/a600eb64-9db6-4657-81e7-5e70908b55ca/annotation/1.json",
+              "@id": "{{ '/' | absolute_url }}manifests/a600eb64-9db6-4657-81e7-5e70908b55ca/annotation/1.json",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -40,6 +41,13 @@
                 }
               },
               "on": "https://iiif.bodleian.ox.ac.uk/iiif/image/a600eb64-9db6-4657-81e7-5e70908b55ca/info.json"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/a600eb64-9db6-4657-81e7-5e70908b55ca-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
             }
           ]
         }
