@@ -1,0 +1,49 @@
+---
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://pieckh.github.io/annonatate/manifests/a600eb64-9db6-4657-81e7-5e70908b55ca/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Mendoza Trial",
+  "metadata": [
+    {
+      "label": "rights",
+      "value": "https://creativecommons.org/licenses/by-nc/4.0/"
+    }
+  ],
+  "viewingDirection": "left-to-right",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://iiif.bodleian.ox.ac.uk/iiif/image/a600eb64-9db6-4657-81e7-5e70908b55ca/info.json",
+          "@type": "sc:Canvas",
+          "label": "Mendoza Trial",
+          "height": 8220,
+          "width": 6579,
+          "images": [
+            {
+              "@id": "https://pieckh.github.io/annonatate/manifests/a600eb64-9db6-4657-81e7-5e70908b55ca/annotation/1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.bodleian.ox.ac.uk/iiif/image/a600eb64-9db6-4657-81e7-5e70908b55ca/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 8220,
+                "width": 6579,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.bodleian.ox.ac.uk/iiif/image/a600eb64-9db6-4657-81e7-5e70908b55ca",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://iiif.bodleian.ox.ac.uk/iiif/image/a600eb64-9db6-4657-81e7-5e70908b55ca/info.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
