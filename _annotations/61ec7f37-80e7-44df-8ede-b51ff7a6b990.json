@@ -1,0 +1,33 @@
+---
+canvas: "https://iiif.bodleian.ox.ac.uk/iiif/image/a600eb64-9db6-4657-81e7-5e70908b55ca/info.json"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Signatur",
+            "purpose": "commenting",
+            "creator": {
+                "id": "pieckh",
+                "name": "pieckh"
+            },
+            "created": "2021-10-21T08:28:30.741Z",
+            "modified": "2021-10-21T08:28:31.829Z"
+        }
+    ],
+    "target": {
+        "source": "https://iiif.bodleian.ox.ac.uk/iiif/image/a600eb64-9db6-4657-81e7-5e70908b55ca/info.json",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2452.83349609375,918.2102661132812 2550.44580078125,1358.7841796875 3426.3173828125,1306.0208740234375 4046.286376953125,1052.7568359375 4312.7412109375,875.9996337890625 4304.82666015625,646.4790649414062 3932.84521484375,759.9202880859375 3341.895751953125,759.9202880859375 2698.18310546875,788.9401245117188 2696.864013671875,786.3019409179688\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pieckh.github.io/annonatate/manifests/a600eb64-9db6-4657-81e7-5e70908b55ca/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "61ec7f37-80e7-44df-8ede-b51ff7a6b990.json"
+}
