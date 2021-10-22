@@ -1,0 +1,34 @@
+---
+canvas: "https://iiif.bodleian.ox.ac.uk/iiif/canvas/ce005664-a585-4b39-96b4-328f2947cf7e.json"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "lo de suho que esta escrito de lolorado hon los nombres que ... a los annos que es cada un ",
+            "purpose": "supplementing",
+            "creator": {
+                "id": "pieckh",
+                "name": "pieckh"
+            },
+            "created": "2021-10-22T09:46:59.436Z",
+            "modified": "2021-10-22T09:48:31.011Z"
+        }
+    ],
+    "target": {
+        "source": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/ce005664-a585-4b39-96b4-328f2947cf7e.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=pixel:1402.87890625,6546.08349609375,4703.58740234375,733.673828125"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://iiif.bodleian.ox.ac.uk/iiif/manifest/2fea788e-2aa2-4f08-b6d9-648c00486220.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "13377e52-2e04-42b1-8b59-a1dfea99898c.json"
+}
