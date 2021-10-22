@@ -1,0 +1,34 @@
+---
+canvas: "https://iiif.bodleian.ox.ac.uk/iiif/canvas/baedcd6d-034d-4d4d-932a-28063650929d.json"
+order: 3
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Comienca la ystoria y fundacion dela abdad de mexico ",
+            "purpose": "supplementing",
+            "creator": {
+                "id": "pieckh",
+                "name": "pieckh"
+            },
+            "created": "2021-10-22T09:43:30.616Z",
+            "modified": "2021-10-22T09:44:05.816Z"
+        }
+    ],
+    "target": {
+        "source": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/baedcd6d-034d-4d4d-932a-28063650929d.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=pixel:885.8951416015625,779.6029052734375,4443.4158935546875,775.4437255859375"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://iiif.bodleian.ox.ac.uk/iiif/manifest/2fea788e-2aa2-4f08-b6d9-648c00486220.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "8f73866c-303d-43f5-89be-a734d91a1af0.json"
+}
