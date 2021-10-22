@@ -1,0 +1,30 @@
+---
+canvas: "https://pieckh.github.io/annonatate/images/bsb00002477_00005_VD16C2478.jpg"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Signatur",
+            "purpose": "classifying",
+            "creator": {
+                "id": "pieckh",
+                "name": "pieckh"
+            },
+            "created": "2021-10-22T08:23:54.830Z",
+            "modified": "2021-10-22T08:24:00.218Z"
+        }
+    ],
+    "target": {
+        "source": "https://pieckh.github.io/annonatate/images/bsb00002477_00005_VD16C2478.jpg",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=pixel:739.2108154296875,2744.517822265625,917.7779541015625,404.2255859375"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "ebfa239e-6b30-43b2-b7a3-847a9c4396ff.json"
+}
