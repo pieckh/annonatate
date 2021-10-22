@@ -1,0 +1,9 @@
+---
+canvas_id: "https://iiif.bodleian.ox.ac.uk/iiif/canvas/baedcd6d-034d-4d4d-932a-28063650929d.json"
+---
+{% assign annotations = site.annotations | where: "canvas", page.canvas_id | sort: "order" | map: "content" %}
+{
+"@context": "http://iiif.io/api/presentation/2/context.json",
+"id": "{{ site.url }}{{ site.baseurl }}{{page.url}}",
+"type": "AnnotationPage",
+"items": [{{ annotations | join: ","}}] }
