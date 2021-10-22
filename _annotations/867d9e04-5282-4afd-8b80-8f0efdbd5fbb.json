@@ -1,0 +1,33 @@
+---
+canvas: "https://iiif.bodleian.ox.ac.uk/iiif/canvas/baedcd6d-034d-4d4d-932a-28063650929d.json"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "?",
+            "purpose": "commenting",
+            "creator": {
+                "id": "pieckh",
+                "name": "pieckh"
+            },
+            "created": "2021-10-22T09:43:07.286Z"
+        }
+    ],
+    "target": {
+        "source": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/baedcd6d-034d-4d4d-932a-28063650929d.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=pixel:2611.565185546875,274.9490661621094,2368.180908203125,551.4267272949219"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://iiif.bodleian.ox.ac.uk/iiif/manifest/2fea788e-2aa2-4f08-b6d9-648c00486220.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "867d9e04-5282-4afd-8b80-8f0efdbd5fbb.json"
+}
