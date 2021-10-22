@@ -1,0 +1,30 @@
+---
+canvas: "https://pieckh.github.io/annonatate/images/bsb00002477_00005_VD16C2478.jpg"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Chronica Vin vil Namhafftigen geschichten die geschehen seynd seid man zalt nach Christ geburt ne\u00fcn hundert vnd dreii iar in Ungern Behem Osterreich Stelirmackt Bayern Schwaben Francken W\u00e4lsch vnnd Teutsch landen biss auf das M.CCCC.XV.",
+            "purpose": "supplementing",
+            "creator": {
+                "id": "pieckh",
+                "name": "pieckh"
+            },
+            "created": "2021-10-22T08:21:29.676Z",
+            "modified": "2021-10-22T08:23:20.196Z"
+        }
+    ],
+    "target": {
+        "source": "https://pieckh.github.io/annonatate/images/bsb00002477_00005_VD16C2478.jpg",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=pixel:374.0848083496094,616.9196166992188,1847.8915100097656,1270.1597290039062"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "ae896e26-d2d0-4d56-a0e6-4ce6a6032238.json"
+}
